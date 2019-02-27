@@ -8634,3 +8634,11 @@ function DAC:OnReport(keys)
 		)
 	end
 end
+
+function SilenceChess(keys)
+	if keys.caster:GetUnitName() == 'npc_dota_hero_wisp' then
+		keys.caster:RemoveModifierByName("modifier_silence")
+	else
+		keys.caster:AddNewModifier(keys.caster,nil,"modifier_silence",{})
+	end
+end

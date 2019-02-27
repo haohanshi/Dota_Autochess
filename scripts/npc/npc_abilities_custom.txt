@@ -75,6 +75,7 @@
 				}
 				"Duration"	"%howl_duration"
 				"TextureName"	"lycan_howl"
+				"States"	{}
 			}
 		}
 		// Special
@@ -7773,13 +7774,14 @@
 			"modifier_jiaoxie_wudi_hero"
 			{
 				"Passive"	"1"
-				"IsHidden"	"1"
+				"IsHidden"	"0"
 				"States"
 				{
 					"MODIFIER_STATE_DISARMED"	"MODIFIER_STATE_VALUE_ENABLED"
 					"MODIFIER_STATE_MAGIC_IMMUNE"	"MODIFIER_STATE_VALUE_ENABLED"
 					"MODIFIER_STATE_ATTACK_IMMUNE"	"MODIFIER_STATE_VALUE_ENABLED"
 				}
+				"Properties"	{}
 			}
 		}
 	}
@@ -13666,6 +13668,7 @@
 				{
 					"MODIFIER_PROPERTY_VISUAL_Z_DELTA"	"100"
 				}
+				"IsHidden"	"1"
 			}
 		}
 	}
