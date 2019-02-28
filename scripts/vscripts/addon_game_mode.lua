@@ -1715,7 +1715,6 @@ function InitHeros()
 		if t.err == 0 then
 			prt('CONNECT SERVER OK!')
 			for steam_id,user_info in pairs(t.user_info) do
-				DeepPrintTable(user_info)
 				local hero_index = user_info.hero_index
 				local hero = EntIndexToHScript(hero_index)
 				local player_id = hero:GetPlayerID()
@@ -5092,7 +5091,7 @@ function MirrorARound(teamid)
 					end
 				end
 			end
-			Timers:CreateTimer(0.5,function()
+			Timers:CreateTimer(0.8,function()
 				AddComboAbility(teamid)
 			end)
 		end
@@ -5100,7 +5099,7 @@ function MirrorARound(teamid)
 end
 
 function MirrorAChess(teamid,i,j,opp)
-	Timers:CreateTimer(RandomFloat(0.1,0.5),function()
+	Timers:CreateTimer(RandomFloat(0.1,0.3),function()
 		local x = CreateUnitByName(GameRules:GetGameModeEntity().mychess[teamid][i..'_'..j].chess,XY2Vector(9-j,9-i,opp),true,nil,nil,DOTA_TEAM_NEUTRALS)
 		MakeTiny(x)
 		x:SetForwardVector(Vector(0,-1,0))
