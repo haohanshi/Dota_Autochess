@@ -2838,7 +2838,7 @@
 		// Class of entity of link to.
 		"BaseClass"	"npc_dota_creature"
 		"Model"	"models/heroes/rattletrap/rattletrap.vmdl"
-		"ModelScale"	"1"
+		"ModelScale"	"1..05"
 		// Abilities
 		// ----------------------------------------------------------------
 		// Ability 1.
@@ -4450,7 +4450,7 @@
 		// Armor
 		// ----------------------------------------------------------------
 		// Physical protection.
-		"ArmorPhysical"	"10"
+		"ArmorPhysical"	"5"
 		// Magical protection.
 		"MagicalResistance"	"0"
 		// Attack
@@ -4574,7 +4574,7 @@
 		// Armor
 		// ----------------------------------------------------------------
 		// Physical protection.
-		"ArmorPhysical"	"10"
+		"ArmorPhysical"	"5"
 		// Magical protection.
 		"MagicalResistance"	"0"
 		// Attack
@@ -4631,27 +4631,27 @@
 			{
 				"Wearable1"
 				{
-					"ItemDef"	"367"
+					"ItemDef"	"20940"
 				}
 				"Wearable2"
 				{
-					"ItemDef"	"463"
+					"ItemDef"	"7972"
 				}
 				"Wearable3"
 				{
-					"ItemDef"	"9266"
+					"ItemDef"	"7968"
 				}
 				"Wearable4"
 				{
-					"ItemDef"	"9265"
+					"ItemDef"	"7969"
 				}
 				"Wearable5"
 				{
-					"ItemDef"	"466"
+					"ItemDef"	"7970"
 				}
 				"Wearable6"
 				{
-					"ItemDef"	"9268"
+					"ItemDef"	"7967"
 				}
 			}
 		}
@@ -4698,7 +4698,7 @@
 		// Armor
 		// ----------------------------------------------------------------
 		// Physical protection.
-		"ArmorPhysical"	"10"
+		"ArmorPhysical"	"5"
 		// Magical protection.
 		"MagicalResistance"	"0"
 		// Attack
@@ -5926,7 +5926,7 @@
 		// Armor
 		// ----------------------------------------------------------------
 		// Physical protection.
-		"ArmorPhysical"	"0"
+		"ArmorPhysical"	"5"
 		// Magical protection.
 		"MagicalResistance"	"0"
 		// Attack
@@ -6048,7 +6048,7 @@
 		// Armor
 		// ----------------------------------------------------------------
 		// Physical protection.
-		"ArmorPhysical"	"0"
+		"ArmorPhysical"	"5"
 		// Magical protection.
 		"MagicalResistance"	"0"
 		// Attack
@@ -6174,7 +6174,7 @@
 		// Armor
 		// ----------------------------------------------------------------
 		// Physical protection.
-		"ArmorPhysical"	"0"
+		"ArmorPhysical"	"5"
 		// Magical protection.
 		"MagicalResistance"	"0"
 		// Attack
@@ -11477,7 +11477,7 @@
 		"Ability16"	"dac_guai_base"
 		"MinimapIcon"	"minimap_creep"
 		"MinimapIconSize"	"256"
-		"AttackDamageMin"	"60"
+		"AttackDamageMin"	"55"
 		"AttackDamageMax"	"65"
 		"AttackRate"	"0.9"
 		"AttackRange"	"600"
@@ -11597,7 +11597,7 @@
 		"Ability16"	"dac_guai_base"
 		"MinimapIcon"	"minimap_creep"
 		"MinimapIconSize"	"256"
-		"AttackDamageMin"	"120"
+		"AttackDamageMin"	"110"
 		"AttackDamageMax"	"130"
 		"AttackRate"	"0.9"
 		"AttackRange"	"600"
@@ -11717,7 +11717,7 @@
 		"Ability16"	"dac_guai_base"
 		"MinimapIcon"	"minimap_creep"
 		"MinimapIconSize"	"256"
-		"AttackDamageMin"	"240"
+		"AttackDamageMin"	"220"
 		"AttackDamageMax"	"260"
 		"AttackRate"	"0.9"
 		"AttackRange"	"600"
@@ -11838,7 +11838,7 @@
 		"MinimapIcon"	"minimap_creep"
 		"MinimapIconSize"	"256"
 		"AttackDamageMin"	"50"
-		"AttackDamageMax"	"60"
+		"AttackDamageMax"	"70"
 		"AttackRate"	"1"
 		"AttackRange"	"600"
 		"Creature"
@@ -11966,7 +11966,7 @@
 		"MinimapIcon"	"minimap_creep"
 		"MinimapIconSize"	"256"
 		"AttackDamageMin"	"100"
-		"AttackDamageMax"	"120"
+		"AttackDamageMax"	"140"
 		"AttackRate"	"1"
 		"AttackRange"	"600"
 		"Creature"
@@ -12094,7 +12094,7 @@
 		"MinimapIcon"	"minimap_creep"
 		"MinimapIconSize"	"256"
 		"AttackDamageMin"	"200"
-		"AttackDamageMax"	"240"
+		"AttackDamageMax"	"280"
 		"AttackRate"	"1"
 		"AttackRange"	"600"
 		"Creature"
@@ -13447,7 +13447,7 @@
 		"MinimapIconSize"	"256"
 		"AttackDamageMin"	"65"
 		"AttackDamageMax"	"85"
-		"AttackRate"	"1.2"
+		"AttackRate"	"1.1"
 		"AttackRange"	"600"
 		"Creature"
 		{
@@ -13567,7 +13567,7 @@
 		"MinimapIconSize"	"256"
 		"AttackDamageMin"	"130"
 		"AttackDamageMax"	"170"
-		"AttackRate"	"1.2"
+		"AttackRate"	"1.1"
 		"AttackRange"	"600"
 		"Creature"
 		{
@@ -13687,7 +13687,7 @@
 		"MinimapIconSize"	"256"
 		"AttackDamageMin"	"260"
 		"AttackDamageMax"	"340"
-		"AttackRate"	"1.2"
+		"AttackRate"	"1.1"
 		"AttackRange"	"600"
 		"Creature"
 		{
@@ -16627,29 +16627,33 @@
 			{
 				"Wearable1"
 				{
-					"ItemDef"	"4500"
+					"ItemDef"	"9344"
 				}
 				"Wearable2"
 				{
-					"ItemDef"	"5373"
+					"ItemDef"	"9342"
 				}
 				"Wearable3"
 				{
-					"ItemDef"	"5321"
+					"ItemDef"	"9343"
 				}
 				"Wearable4"
 				{
-					"ItemDef"	"5661"
+					"ItemDef"	"5222"
 				}
 				"Wearable5"
 				{
-					"ItemDef"	"5669"
+					"ItemDef"	"9346"
 				}
 				"Wearable6"
 				{
-					"ItemDef"	"5670"
+					"ItemDef"	"9345"
 				}
 				"Wearable7"
+				{
+					"ItemDef"	"5321"
+				}
+				"Wearable8"
 				{
 					"ItemDef"	"9115"
 				}
@@ -22396,7 +22400,7 @@
 		// Physical protection.
 		"ArmorPhysical"	"0"
 		// Magical protection.
-		"MagicalResistance"	"20"
+		"MagicalResistance"	"30"
 		// Attack
 		// ----------------------------------------------------------------
 		"AttackCapabilities"	"DOTA_UNIT_CAP_RANGED_ATTACK"
@@ -22516,7 +22520,7 @@
 		// Physical protection.
 		"ArmorPhysical"	"0"
 		// Magical protection.
-		"MagicalResistance"	"20"
+		"MagicalResistance"	"30"
 		// Attack
 		// ----------------------------------------------------------------
 		"AttackCapabilities"	"DOTA_UNIT_CAP_RANGED_ATTACK"
@@ -22644,7 +22648,7 @@
 		// Physical protection.
 		"ArmorPhysical"	"0"
 		// Magical protection.
-		"MagicalResistance"	"20"
+		"MagicalResistance"	"30"
 		// Attack
 		// ----------------------------------------------------------------
 		"AttackCapabilities"	"DOTA_UNIT_CAP_RANGED_ATTACK"
@@ -23079,31 +23083,35 @@
 			{
 				"Wearable1"
 				{
-					"ItemDef"	"12847"
+					"ItemDef"	"9961"
 				}
 				"Wearable2"
 				{
-					"ItemDef"	"12846"
+					"ItemDef"	"9963"
 				}
 				"Wearable3"
 				{
-					"ItemDef"	"12845"
+					"ItemDef"	"9964"
 				}
 				"Wearable4"
 				{
-					"ItemDef"	"12844"
+					"ItemDef"	"9966"
 				}
 				"Wearable5"
 				{
-					"ItemDef"	"12843"
+					"ItemDef"	"9962"
 				}
 				"Wearable6"
 				{
-					"ItemDef"	"12842"
+					"ItemDef"	"9960"
 				}
 				"Wearable7"
 				{
-					"ItemDef"	"12841"
+					"ItemDef"	"9965"
+				}
+				"Wearable8"
+				{
+					"ItemDef"	"21211"
 				}
 			}
 		}
@@ -24076,7 +24084,7 @@
 		"AttackRange"	"205"
 		"AttackRangeBuffer"	"50"
 		"MagicalResistance"	"10"
-		"ArmorPhysical"	"10"
+		"ArmorPhysical"	"5"
 		"MovementSpeed"	"150"
 		"MovementCapabilities"	"DOTA_UNIT_CAP_MOVE_GROUND"
 		"HealthBarOffset"	"128"
@@ -24129,7 +24137,7 @@
 		"AttackRange"	"205"
 		"AttackRangeBuffer"	"50"
 		"MagicalResistance"	"10"
-		"ArmorPhysical"	"10"
+		"ArmorPhysical"	"5"
 		"MovementSpeed"	"150"
 		"MovementCapabilities"	"DOTA_UNIT_CAP_MOVE_GROUND"
 		"HealthBarOffset"	"128"
@@ -24182,7 +24190,7 @@
 		"AttackRange"	"205"
 		"AttackRangeBuffer"	"50"
 		"MagicalResistance"	"10"
-		"ArmorPhysical"	"10"
+		"ArmorPhysical"	"5"
 		"MovementSpeed"	"150"
 		"MovementCapabilities"	"DOTA_UNIT_CAP_MOVE_GROUND"
 		"HealthBarOffset"	"128"
